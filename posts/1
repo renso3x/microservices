@@ -1,0 +1,13 @@
+PATH="/usr/local/bin:$PATH"
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+export BUILDKITE_API_TOKEN=face9a1c047bf910a0e5727d057505d532516d45
+export GITHUB_TOKEN=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
+export ONELOGIN_USERNAME=romeo.enso@siteminder.com
+export AWS_REGION=us-west-2
+export AWS_SESSION_DURATION=28800
+export AWS_PROFILE=dev
